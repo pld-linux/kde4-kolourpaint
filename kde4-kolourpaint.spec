@@ -5,7 +5,7 @@ Summary:	KDE Painter
 Summary(pl.UTF-8):	Program graficzny KDE
 Name:		kolourpaint
 Version:	4.7.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Graphics
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{name}-%{version}.tar.bz2
@@ -13,7 +13,7 @@ Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{name}-%{version}.t
 URL:		http://www.kde.org/
 BuildRequires:	cmake >= 2.8.0
 BuildRequires:	kde4-kdelibs-devel >= %{version}
-Obsoletes:	kde4-kdegraphics-kolourpaint < 4.7.0
+Obsoletes:	kde4-kdegraphics-kolourpaint < 4.6.99
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
