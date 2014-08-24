@@ -5,12 +5,12 @@
 Summary:	KDE Painter
 Summary(pl.UTF-8):	Program graficzny KDE
 Name:		kde4-kolourpaint
-Version:	4.13.2
+Version:	4.14.0
 Release:	1
 License:	GPL
 Group:		X11/Applications/Graphics
-Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	d8856f70c7560ef3b3625c7e659fdeb0
+Source0:	http://download.kde.org/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
+# Source0-md5:	fbfdead5869a2d6d8b10aba2ed00f00b
 URL:		http://www.kde.org/
 BuildRequires:	automoc4 >= 0.9.88
 BuildRequires:	cmake >= 2.8.0
@@ -60,6 +60,7 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/kolourpaint
 %attr(755,root,root) %{_libdir}/libkolourpaint_lgpl.so.*.*.*
 %attr(755,root,root) %ghost %{_libdir}/libkolourpaint_lgpl.so.?
+%{_datadir}/appdata/kolourpaint.appdata.xml
 %{_datadir}/apps/kolourpaint
 %{_desktopdir}/kde4/kolourpaint.desktop
 %{_iconsdir}/*/*/apps/kolourpaint.*
