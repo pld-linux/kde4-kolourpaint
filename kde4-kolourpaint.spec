@@ -5,12 +5,12 @@
 Summary:	KDE Painter
 Summary(pl.UTF-8):	Program graficzny KDE
 Name:		kde4-kolourpaint
-Version:	4.14.0
+Version:	4.14.2
 Release:	1
 License:	GPL
 Group:		X11/Applications/Graphics
 Source0:	http://download.kde.org/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	fbfdead5869a2d6d8b10aba2ed00f00b
+# Source0-md5:	ffc3461411a70c5a3ce035f779c0898a
 URL:		http://www.kde.org/
 BuildRequires:	automoc4 >= 0.9.88
 BuildRequires:	cmake >= 2.8.0
